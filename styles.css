@@ -2,14 +2,13 @@
 html,body { 
 position: relative;
     height:100%;
-min-height: 1700px;
-    padding-bottom:100px;
+min-height: 250vh;
+    padding-bottom:33px;
+    background: linear-gradient(55deg, #cfe2f3 0%, #e594e8 51%, #a982ff 85%);
  }
 
 body{
 position: relative;
-    background: linear-gradient(55deg, #cfe2f3 0%, #e594e8 51%, #a982ff 85%);
-    padding-bottom:100px;
 }
 header .logo{
 margin-left: 2vw;
@@ -105,7 +104,7 @@ min-height: 500px;
 #articles {
     width: 63%;
     min-height: 500px;
-margin-bottom: 4%;
+    margin-bottom: 4%;
  }
 section{
     padding-left: 1.5%;
@@ -234,14 +233,6 @@ opacity:100%;
 .square:hover{
     opacity: 0.5;
 }
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
-}
 nav{
 background-color: rgba(43, 0, 255, 0.1);
 padding: 1px;
@@ -264,14 +255,12 @@ nav a{
 }
 footer {
     position: absolute;
-    right: 0;
+    right: -1;
     bottom: 0;
-    left: 0;
-    padding: 1rem;
+    left: -1;
     background: linear-gradient(55deg, #cfe2f3 0%, #e594e8 51%, #a982ff 85%);
-border: solid rgba(43, 0, 255, 0.2);
     text-align: center;
-
+    padding: 1%;
   }
 h1 button{
     font-size: large;
