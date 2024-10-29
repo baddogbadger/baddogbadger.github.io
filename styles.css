@@ -17,6 +17,7 @@ margin-left: 2vw;
     display: inline-block;
 
 }
+
 header h1{
     color:#a982ff;
     font-size: 1.5vw;
@@ -124,6 +125,7 @@ section{
     section{
         padding-left: 1.5%;
         padding-right: 3%;
+
     } 
   } 
   @media screen and (max-width: 900px) {
@@ -173,6 +175,11 @@ section{
         padding-right: 20px;
     }
 }
+@media screen and (max-width: 900px) {
+.column1 p{
+    margin: -10px;
+    }
+}
 @media screen and (max-width: 800px) {
     #articles {
         width:100%;
@@ -183,11 +190,6 @@ section{
         width: 100%;
         min-height: 300px;
      }
-}
-@media screen and (max-width: 900px) {
-.column1 p{
-    margin: -10px;
-    }
 }
 @media screen and (max-width: 400px) {
     .column1 p{
@@ -340,4 +342,32 @@ audio{
   width: 100%;
   margin-left: 2%;
   margin-right: 3%;
+}
+@font-face { font-family: Custom; src: url('fonts/AntiqueBlackletterMinimal-Regular.ttf'); } 
+h4{
+  font-family: Custom, serif;
+  font-size: 4vw;
+  font-weight: normal;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+button{
+  border-width: 5px;
+border-color: #a982ff;
+  background-color: #e594e8;
+  font-family: Custom;
+  font-size: xx-large;
+  transition: background-color 0.5s;
+  transition: border-color 0.5s;
+}
+button:hover{
+
+  background-color: #d5d2ff;
+  transition: background-color 0.5s;
+  transition: border-color 0.5s;
+  border-color: azure;
+}
+button a{
+
+  text-decoration: none;
 }
