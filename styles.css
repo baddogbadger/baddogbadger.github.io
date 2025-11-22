@@ -342,7 +342,10 @@ audio{
   margin-left: 2%;
   margin-right: 3%;
 }
-@font-face { font-family: Custom; src: url('fonts/AntiqueBlackletterMinimal-Regular.ttf'); } 
+@font-face { font-family: antique blackletter; src: url('fonts/AntiqueBlackletterMinimal-Regular.otf'); 
+  font-family: modern roman; src: url('fonts/ModernRoman77-Regular.otf');} 
+
+
 h4{
   font-family: Custom, serif;
   font-size: 4vw;
