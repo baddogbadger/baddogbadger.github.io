@@ -10,7 +10,7 @@ min-height: 250vh;
 body{
 position: relative;
 }
-header .logo{
+head .logo{
 margin-left: 2vw;
     padding-top: 15px;
     width: 30%;
@@ -18,7 +18,7 @@ margin-left: 2vw;
 
 }
 
-header h1{
+head h1{
     color:#a982ff;
     font-size: 1.5vw;
     padding: 0px;
@@ -27,7 +27,7 @@ position: sticky;
 margin-top: -5px;
 margin-bottom: -10px;
 }
-header{
+head{
     background-color: rgb(255, 255, 255, .4);
 }
 hr {
@@ -142,7 +142,7 @@ section{
     }
   } 
   @media screen and (max-width: 900px) {
-    header .logo {
+    head .logo {
       width: 80%;      
       display: block;
       margin-left: auto;
@@ -151,7 +151,7 @@ section{
     }
   }
   @media screen and (max-width: 900px) {
-        header h1 {
+        head h1 {
           font-size: 3vw;      
           display: block;
           margin-left: auto;
