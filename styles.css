@@ -1,11 +1,9 @@
 h1{
     font-family: 'Times New Roman', Times, serif; 
     color:  #202122;  
-    border-bottom: #999da1; 
-    border-bottom-style: solid;
-    margin-bottom: 0%;
-    padding-bottom: 0%;
-    margin-top: 0%;
+    margin: 0%;
+    border-bottom: 2px solid;
+    border-color: #a2a9b1;
 }
 h2{
     font-family: 'Times New Roman', Times, serif;
@@ -18,8 +16,8 @@ p{
     margin-top: 2%;
 }
 body {
-    background-color: var(--background-color-neutral-subtle, #f8f9fa);
-    color: var(--color-base, #202122);
+    background-color: #f8f9fa;
+    color: #202122;
     display: block;
 }
 html{
@@ -38,7 +36,7 @@ float: left;
     margin-right: 2%;
 }
 .columnright img{
-    border: #202122;
+    border-color: #a2a9b1;
     border-style: double;
 }
 .columnright p{
