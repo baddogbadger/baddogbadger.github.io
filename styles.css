@@ -1,389 +1,85 @@
-
-html,body { 
-position: relative;
-    height:100%;
-min-height: 250vh;
-    padding-bottom:33px;
-    background: linear-gradient(55deg, #cfe2f3 0%, #e594e8 51%, #a982ff 85%);
- }
-
-body{
-position: relative;
-}
-header .logo{
-margin-left: 2vw;
-    padding-top: 15px;
-    width: 30%;
-    display: inline-block;
-
-}
-
-header h1{
-    color:#a982ff;
-    font-size: 1.5vw;
-    padding: 0px;
-margin-right: 2vw;
-position: sticky;
-margin-top: -5px;
-margin-bottom: -10px;
-}
-header{
-    background-color: rgb(255, 255, 255, .4);
-}
-hr {
-    border: none;
-    border-top: 3px dashed rgb(255, 79, 184);
-  }
-a{
-    color:  rgb(119, 9, 163);
-}
-p{
-font-family: 'Times New Roman', Times, serif;
-margin-top: 1px;
-margin-bottom: 0%;
-}
-h3{
-    font-family: Arial light, Helvetica, sans-serif;
-    font-size: 12px;
-    margin-top: -1px;
-}
 h1{
-    font-size: large;
-    font-family: Arial light, sans-serif;
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    font-family: 'Times New Roman', Times, serif; 
+    color:  #202122;  
+    border-bottom: #999da1; 
+    border-bottom-style: solid;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    margin-top: 0%;
 }
 h2{
-    font-size: medium;
-    font-family: Arial black, Helvetica, sans-serif;
-    text-align: left;
-    margin-bottom: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    margin-bottom: 0%;
 }
-.center{
+p{
+    font-family: sans-serif;
+    text-align: justify;
+    margin-top: 2%;
+}
+body {
+    background-color: var(--background-color-neutral-subtle, #f8f9fa);
+    color: var(--color-base, #202122);
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+}
+html{
+    font-size: 100%;
+}
+.column{
+width: 58%;
+display: inline-block;
+float: left;
+}
+.columnright{
+    width: 28%;
+    display: inline-block;
+    float: right;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.columnright img{
+    border: #202122;
+    border-style: double;
+}
+.columnright p{
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
-}
-.center iframe{
-    padding:2%
-  }
-
-     /* Create three equal columns that float next to each other */
-.column {
-    float: left;
-    width: 31%;
-border: transparent;
-padding-left: 1%;
-padding-right: 1%;
-margin-left: auto;
-margin-right: auto;
-  }
-iframe{
-    box-shadow: 10px 15px rgba(64, 0, 255, 0.3);
-}
-.blog iframe{
-    box-shadow: none;
-}
-.column iframe{
-    min-height: 600px;
-border-radius: 0%;
-margin-bottom: 5%;
-}
-#myiframe {
-    width: 100%;
-    margin-left: 5px;
-    margin-right: 5px;
-position: relative;
-  }
-#websites{
-width: 32.3%;
-min-height: 500px;
-  }
-#articles {
-    width: 63%;
-    min-height: 500px;
-    margin-bottom: 4%;
- }
-section{
-    padding-left: 1.5%;
-    padding-right: 1%;
-} 
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    clear: both;
-  }
-  .head h1{
-    font-size: 1.7vw;
-  }
-
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (550 wide or less) */
-  @media screen and (max-width: 900px) {
-    section{
-        padding-left: 1.5%;
-        padding-right: 3%;
-
-    } 
-  } 
-  @media screen and (max-width: 900px) {
-    .column {
-      width: 95%; 
-      min-height: 300px;     
-      margin-left: auto;
-      margin-right: auto;
-    }
-  } 
-  @media screen and (max-width: 900px) {
-    .column iframe{
-      min-height: 300px; 
-      border-radius: 0%;
-    }
-  } 
-  @media screen and (max-width: 900px) {
-    header .logo {
-      width: 80%;      
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      padding-top: 1vw;
-    }
-  }
-  @media screen and (max-width: 900px) {
-        header h1 {
-          font-size: 3vw;      
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          padding-top: 1vw;
-          text-align: center;
-          margin-top: auto;
-          position: static;
-        }
-  } 
-  @media screen and (max-width: 900px) {
-    html,body{
-        padding-bottom: 600px;
-        min-height: 1900px;
-    }
-} 
-@media screen and (max-width: 900px) {
-    .blog p{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
-@media screen and (max-width: 900px) {
-.column1 p{
-    margin: -10px;
-    }
-}
-@media screen and (max-width: 800px) {
-    #articles {
-        width:100%;
-    }
-}
-@media screen and (max-width: 800px) {
-    #websites {
-        width: 100%;
-        min-height: 300px;
-     }
-}
-@media screen and (max-width: 400px) {
-    .column1 p{
-        border-bottom: 1px solid darkblue;
-        }
-    }
- .blog{
-    background-color: rgb(255, 255, 255, .5);
-    padding: 3%;
-    border-radius: 5px;
-    overflow-wrap: break-word;
-    margin-top: 1%;
-    margin-right: 1.3px;
- }
-  .blogbox{
-    background-color: rgba(241, 136, 255, 0.315);
-    padding: 3%;
-    padding-top: 0%;
-    overflow-wrap: break-word;
-    margin-right: 1.3px;
-    outline-style: dashed;
-    outline-width: 2px;
-    outline-color: #a982ff;
- }
- .index .blog{
-    margin-bottom: 5%;
- }
- .index .square{
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
- }
- .index .square:hover{
-opacity:100%;
- }
- .square {
-    position: relative;
-  }
-  
-  .square::after {
-    content: "";
-    display: block;
-    padding-bottom: 100%;
-  }
-  
-  .square img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: 50% 50%;
-  }
-.square:hover{
-    opacity: 0.5;
+    margin: 0%;
 }
 nav{
-background-color: rgba(43, 0, 255, 0.1);
-padding: 1px;
-}
-nav a:hover{
-color: white;
-text-decoration: underline;
-}
-nav a{
-    color: black;
-    text-decoration: none;
-}
-.bordered {
-  width: 12rem;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  border: 40px solid;
-  border-image: url("images/pix3.jpg") 27;
-  border-image-repeat: repeat; /* Can be changed in the live sample */
-}
-footer {
-    position: absolute;
-    right: -1;
-    bottom: 0;
-    left: -1;
-    background: linear-gradient(55deg, #cfe2f3 0%, #e594e8 51%, #a982ff 85%);
-    text-align: center;
-    padding: 1%;
-  }
-h1 button{
-    font-size: large;
-    font-family: Arial light, sans-serif;
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: transparent;
-    border-color: transparent;
-  }
-h1 button:hover{
-
-color: white ;
-
-text-decoration: underline;
-  }
-  
-  .rectangle {
-    position: relative;
-  }
-  
-  .rectangle::after {
-    content: "";
-    display: block;
-    padding-bottom: 30%;
-  }
-  
-  .rectangle img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: 50% 50%;
-  }
-.rectangle:hover{
-    opacity: 0.5;
-
-}
-.blogbody p{
-    padding-top: 6px;
-    padding-bottom: 10px;
-}
-
-.column1 {
+    width: 10%;
     float: left;
-    width: 45%;
-    padding: 5px;
-  }
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  .rectangle1 {
-    position: relative;
-    margin-top: 15%;
-  }
-  
-  .rectangle1::after {
-    content: "";
     display: block;
-    padding-bottom: 30%;
-  }
+    
+}
+.spin {
+      animation-name: spin;
+  animation-duration: 16000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */ 
+   /* transform: rotate(.03turn);  */
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(-360deg);
+    }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   
-  .rectangle1 img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: 50% 50%;
-  }
-.rectangle1:hover{
-    opacity: 0.5;
 }
-audio{
-  width: 100%;
-  margin-left: 2%;
-  margin-right: 3%;
-}
-@font-face { font-family: antique blackletter; src: url('fonts/AntiqueBlackletterMinimal-Regular.otf'); 
-  font-family: modern roman; src: url('fonts/ModernRoman77-Regular.otf');} 
 
-
-h4{
-  font-family: Custom, serif;
-  font-size: 4vw;
-  font-weight: normal;
-  margin-bottom: 2%;
-  margin-top: 2%;
-}
-button{
-  border-width: 5px;
-border-color: #a982ff;
-  background-color: #e594e8;
-  font-family: Custom;
-  font-size: xx-large;
-  transition: background-color 0.5s;
-  transition: border-color 0.5s;
-}
-button:hover{
-
-  background-color: #d5d2ff;
-  transition: background-color 0.5s;
-  transition: border-color 0.5s;
-  border-color: azure;
-}
-button a{
-
-  text-decoration: none;
-}
-embed {
-  box-shadow: 10px 15px rgba(64, 0, 255, 0.3);
-
+img{
+    max-width: 100%;
+    height: auto;
 }
