@@ -29,7 +29,7 @@ display: inline-block;
 float: left;
 }
 .columnright{
-    width: 28%;
+    width: 27%;
     display: inline-block;
     float: right;
     margin-left: 2%;
@@ -48,6 +48,7 @@ nav{
     width: 10%;
     float: left;
     display: block;
+    padding-right: 1%;
     
 }
 .spin {
