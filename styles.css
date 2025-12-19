@@ -20,12 +20,15 @@ body {
     background-color: #f8f9fa;
     color: #202122;
     display: block;
+    margin: 4%;
+    margin-top: 1%;
 }
+
 html{
     font-size: 100%;
 }
 .column{
-width: 64%;
+width: 63%;
 
 float: left;
 margin-right: 0%;
