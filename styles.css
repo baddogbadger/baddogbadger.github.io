@@ -120,3 +120,6 @@ a:hover{
   
     }
 }
+header img {
+    max-width: 25%;
+}
