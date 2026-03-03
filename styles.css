@@ -5,6 +5,8 @@ bottom: 0px;
 top: 0px;
     height:100%;
     padding-bottom:33px;
+margin: 4%;
+margin-top: 0px;
 
  }
 
@@ -35,10 +37,14 @@ margin-bottom: -10px;
 }
 header{
     background-color: rgb(255, 255, 255, .4);
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 hr {
     border: none;
     border-top: 3px dashed #ff7e7e;
+    margin-left: 1vw;
+    margin-right: 1vw;
   }
 a{
     color:  rgb(119, 9, 163);
@@ -398,12 +404,21 @@ audio{
   font-family: modern roman; src: url('fonts/ModernRoman77-Regular.otf');} 
 
 
+
 h4{
   font-family: Custom, serif;
   font-size: 4vw;
   font-weight: normal;
   margin-bottom: 2%;
   margin-top: 2%;
+}
+
+h5{
+  font-family: serif;
+  font-size:x-large;
+  text-align: center;
+  margin: 1%;
+  margin-bottom: -4px;
 }
 button{
   border-width: 5px;
