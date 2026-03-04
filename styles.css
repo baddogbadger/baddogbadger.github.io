@@ -12,7 +12,8 @@ margin-top: 0px;
 
 body{
 position: relative;
-    background: linear-gradient(45deg, #ff8787 0%, #ffedc7 60%, #d2f0e8 85%);
+
+    background: linear-gradient(45deg, #ff8787 0%, #ffedc7 40%, #d2f0e8 90%);
 
     background-repeat: no-repeat;
 background-attachment: fixed;
