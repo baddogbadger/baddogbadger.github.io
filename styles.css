@@ -194,7 +194,7 @@ section{
   }
 
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (550 wide or less) */
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 400px) {
     .left{
       width: 100%;
   
@@ -202,9 +202,27 @@ section{
     .right{
       width: 100%;
     }
+      .column-left-box {
+    float: left;
+    width: 40%;
+border: transparent;
+padding-left: 1%;
+padding-right: 1%;
+margin-left: auto;
+margin-right: auto;
+  }
+  .column-right-box{
+    float: right;
+    width: 40%;
+border: transparent;
+padding-left: 1%;
+padding-right: 1%;
+margin-left: auto;
+margin-right: auto;
+  }
   }
 
-      @media screen and (max-width: 900px) {
+      @media screen and (max-width: 400px) {
 
     section{
         padding-left: 1.5%;
@@ -212,7 +230,7 @@ section{
 
     } 
   } 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 400px) {
     .column {
       width: 95%; 
       min-height: 300px;     
@@ -220,13 +238,13 @@ section{
       margin-right: auto;
     }
   } 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 400px) {
     .column iframe{
       min-height: 300px; 
       border-radius: 0%;
     }
   } 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 400px) {
     header .logo {
       width: 80%;      
       display: block;
@@ -235,7 +253,7 @@ section{
       padding-top: 1vw;
     }
   }
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 400px) {
         header h1 {
           font-size: 3vw;      
           display: block;
@@ -247,19 +265,19 @@ section{
           position: static;
         }
   } 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 400px) {
     html,body{
         padding-bottom: 600px;
-        min-height: 1900px;
+        min-height: 1400px;
     }
 } 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 400px) {
     .blog p{
         padding-left: 20px;
         padding-right: 20px;
     }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 400px) {
 .column1 p{    background-color: rgb(255, 255, 255, .5);
     padding: 3%;
     border-radius: 0px;
@@ -269,12 +287,12 @@ section{
     margin: -10px;
     }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 400px) {
     #articles {
         width:100%;
     }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 400px) {
     #websites {
         width: 100%;
         min-height: 300px;
