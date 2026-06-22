@@ -79,7 +79,7 @@ h2{
     margin-bottom: 2px;
 }
 .center{
-    display: inline-block;
+
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -87,6 +87,12 @@ h2{
 .center iframe{
     padding:2%
   }
+
+.center .blog{
+  display: inline-block;
+   margin: 2%;
+  margin-left: 1%;
+}
 .left{
   float: left;
   width: 38%;
@@ -99,8 +105,19 @@ h2{
   width: 60%;
   margin-right: 2%;
 }
+.lefthalf{
+    float: left;
+  width: 49%;
+}
+.righthalf{
+    float: right;
+  width: 49%;
+}
+.lefthalf img{
+display: inline-block;
 
-     /* Create three equal columns that float next to each other */
+}
+
 .column-left {
     float: left;
     width: 30%;
@@ -113,6 +130,24 @@ margin-right: auto;
   .column-right{
     float: right;
     width: 80%;
+border: transparent;
+padding-left: 1%;
+padding-right: 1%;
+margin-left: auto;
+margin-right: auto;
+  }
+  .column-left-box {
+    float: left;
+    width: 48%;
+border: transparent;
+padding-left: 1%;
+padding-right: 1%;
+margin-left: auto;
+margin-right: auto;
+  }
+  .column-right-box{
+    float: right;
+    width: 48%;
 border: transparent;
 padding-left: 1%;
 padding-right: 1%;
@@ -252,16 +287,19 @@ section{
     }
  .blog{
     background-color: rgb(255, 255, 255, .5);
-    padding: 6%;
+    padding: 3%;
+ 
     border-radius: 0px;
     overflow-wrap: break-word;
     margin-top: 1%;
     margin-right: 1.3px;
 
  }
+
   .blogbox{
     background-color: rgba(255, 255, 255, 0.479);
     padding: 3%;
+ 
     padding-top: 0%;
     overflow-wrap: break-word;
     margin-right: 1.3px;
